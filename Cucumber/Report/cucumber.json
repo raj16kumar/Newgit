@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "facebook-login-module;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130868300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User initialize the chrome browser",
+            "match": {
+              "location": "Step.user_initialize_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the facebook application",
+            "match": {
+              "location": "Step.user_launch_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 395200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the firstname and surname",
+            "match": {
+              "location": "Step.user_enters_the_firstname_and_surname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 817800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the mobile number or email address",
+            "match": {
+              "location": "Step.user_enters_the_mobile_number_or_email_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 899300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the new password",
+            "match": {
+              "location": "Step.user_enters_the_new_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 995899,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the DOB",
+            "match": {
+              "location": "Step.user_enters_the_DOB()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1077500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the gender",
+            "match": {
+              "location": "Step.user_enters_the_gender()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 938199,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click sign up",
+            "match": {
+              "location": "Step.user_click_sign_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login module",
+    "description": "",
+    "id": "facebook-login-module",
+    "keyword": "Feature",
+    "uri": "Fblogin.feature"
+  }
+]
